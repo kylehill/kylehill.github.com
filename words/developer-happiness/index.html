@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>i totally finished Infinite Jest, why do you ask</title>
+  <link href="index.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <em>On Developer Happiness</em>
+  </header>
+  <main>
+    <p>
+      So there's this point that Gary Bernhardt kind of elides in his 
+      
+      <a href="//www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript" 
+        target="_blank">Birth and Death of JavaScript</a>
+      
+      talk, when he mentions that Brendan Eich understood the need for a scripting language for Navigator and decided to write a spec for it, and he did it in just 9 days; and with very little change (but much extension) that spec is now JavaScript. A comparison is drawn to Clojure, which Rich Hickey thought about and revised constantly for two and a half years before he even let anyone know he was working on it.
+    </p>
+    <p>
+      It's not exactly controversial to say that Clojure is a better-designed language than JavaScript.<a href="#note-mumps" name="back-mumps"><sup>[1]</sup></a> It's also not in serious dispute that JavaScript is the 
+
+      <a href="//githut.info/" target="_blank">most popular programming language</a> 
+
+      in the world. The fact that JavaScript has a monopoly on the runtime for browser interactivity certainly contributes to its ubiquity, but that doesn't wholly explain the adaptation of the language for non-browser environments, and there's obviously a fair number of languages that compile down to JavaScript which have stronger guiding design principles and/or a proper embrace of some academic CS best practices. 
+    </p>
+    <p>
+      It's also worth remembering that, while the language has had a prominent place in every web developer's stack for the last twenty-one years, before the Obama administration writing JavaScript was something you endured.<a href="#note-jq" name="back-jq"><sup>[2]</sup></a>
+    </p>
+    <p>
+      My pet theory on JavaScript is that, while it's always had ease of learning at it's core, it's prominence coincided with the dramatic improvement in tools and practices that make it accessible. Three things happened to JavaScript around 2008 that caused a shift in popular opinion: 
+    </p>
+    <!-- and none of them are that fucking book -->
+    <ul>
+      <li>First, jQuery made working with the DOM much easier.</li> 
+      <li>Second, the Acid3 test (combined with a freshly robust browser market) put a focus on how far from the mark vendors were on standards compliance.</li>
+      <li>Finally, Google Chrome was released with V8 and Firebug's DevTools out of the box.</li>
+    </ul>
+    <p>
+      The net effect was to turn JavaScript into the language that has the <strong>fastest time-to-play</strong> of any programming language that has ever existed, ever. If you're learning the basics of code for the first time, or coming to JS from elsewhere and need to build a mental map for transpilation, there's no development environment to set up.
+    </p>
+    <section>
+      <hr />
+      <p>
+        Hey, this is the part where I tell you about myself.
+      </p>
+      <p>
+        I'm <strong>Kyle Hill</strong>, a developer that got roughly half of a traditional, academic CS background who's taught himself most of what he's had to professionally over the past decade. I've worked in everything from MUMPS to Java to .NET to Ruby, but have focused by and large on JavaScript for most of that time. If you asked for my macro-economic competitive advantage, I'd probably go with something like "creating precise and maintainable interfaces," but I'm happy to work with any technology, anywhere in the stack.
+      </p>
+      <p>
+        I grew up on Long Island (it's a great place to be <em>from</em>) but live in Washington, DC with my wife, our garbage cat, and our other, slightly less garbage cat.
+      </p>
+      <p>
+        I'm <strong>kylehill</strong> on everything that matters, and <strong>kylf</strong><a href="#note-kylf" name="back-kylf"><sup>[3]</sup></a> on everything that doesn't.
+      </p>
+      <p>
+        Limited examples of my development work are on <a href="//github.com/kylehill" target="_blank">GitHub</a>; abundant examples of retweeted baseball jokes and failed <em>bon mots</em> are available on <a href="//twitter.com/kylehill" target="_blank">Twitter</a>.
+      </p>
+      <p>
+        You can usually find me procrastinating with the cool kids on the 
+        <a href="//www.dctechslack.com/" target="_blank">DC Tech</a> and
+        <a href="//wealljs.org/" target="_blank">WeAllJS</a> Slack organizations.
+      </p>
+      <p>
+        Feel free to <a href="mailto:kylehill@gmail.com">reach out</a> - I'm happy to consider both full-time and freelance opportunities at this time. While I'm happy to work as part of a remote team, and don't mind occasional travel, I'm not looking to relocate.
+      </p>
+      <hr />
+    </section>
+  </main>
+  <footer>
+    <ol>
+      <li>
+        Mind you, I've used several languages that are more poorly-designed than JS. I started my career programming in something called <strong>MUMPS</strong>. If you're deft at the Googles, you can find a story about it on a once-popular programming blog which I wrote about my first job that's about 70% true. (The editors took some regretful liberties. I think the actual version is better.)
+        <a href="#back-mumps" name="note-mumps"><sup>[^]</sup></a>
+      </li>
+      <li>
+        Speaking of the Obama administration, a fun story: when I worked as a contractor for the DoD back in 2010<a href="#note-dod" name="back-dod"><sup>[4]</sup></a>, I got new comps for a landing page from our designers, and they included suggestions of jQuery plugins that I should use to achieve their ideal carousel animations. (Look, it was 2010.) As the site didn't currently have jQuery because a GS-15 somewhere with more opsec training than curiosity was spooked by the idea of "open source," this caused me to have several fun conversations explaining what jQuery was, which usually devolved into me needing to explain the difference between client-side and server-side code, and why we didn't need a lengthy security certification process.<br/>
+        <br/>
+        A week after those conversations bore little fruit, the White House launched a new, slick version of <a href="//www.whitehouse.gov" target="_blank">whitehouse.gov</a>. Wouldn't you know it, but it had jQuery, and even the latest version of the carousel plugin I was told to use. I showed this to my boss. "Wait, Obama's using it? Then it's totally fine." And nobody else ever cared.
+        <a href="#back-jq" name="note-jq"><sup>[^]</sup></a>
+      </li>
+      <li>
+        You know how they give you those Scantron bubble sheets for standardized exams? Well, I filled out my name wrong when I took the SAT, and I've got a little brother who delighted in taking the piss for the following year of college marketing mail that all came addressed to "Kylf."
+        <a href="#back-kylf" name="note-kylf"><sup>[^]</sup></a>
+      </li>
+      <li>
+        I was actually the only developer on <a href="//www.defense.gov" target="_blank">defense.gov</a> for a little over a year. In retrospect, I was <em>wildly</em> underqualified for this role, but hey, there was just a single production failure in that whole time, and it was partially caused by a damn earthquake.
+        <a href="#back-dod" name="note-dod"><sup>[^]</sup></a>
+      </li>
+    </ol>
+  </footer>
+</body>
+</html>
